@@ -18,10 +18,10 @@
 <h2>List of Prerequisites</h2>
 
 - Install / Enable IIS in Windows with CGI enabled and required modules
-- Create the directory C:\PHP
-- Install and register PHP with IIS
-- Register PHP from within IIS
-- Install osTicket
+- Install web platform installer
+- Install MySQL and create the osticket database
+- install c++ undistributable 
+- Configure pemissions and Install osTicket
 
 <h2>Installation Steps</h2>
 

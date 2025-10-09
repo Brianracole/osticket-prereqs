@@ -17,11 +17,11 @@
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Install / Enable IIS in Windows with CGI enabled and required modules
+- Create the directory C:\PHP
+- Install and register PHP with IIS
+- Register PHP from within IIS
+- Install osTicket
 
 <h2>Installation Steps</h2>
 

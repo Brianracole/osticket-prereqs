@@ -20,7 +20,7 @@
 - Install / Enable IIS in Windows with CGI enabled and required modules
 - Install web platform installer
 - Install MySQL and create the osticket database
-- install c++ undistributable 
+- install c++ redistributable 
 - Configure pemissions and Install osTicket
 
 <h2>Installation Steps</h2>

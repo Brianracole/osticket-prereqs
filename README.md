@@ -29,7 +29,7 @@
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6ec44ce4-de80-44a7-be77-47103e0618f0" />
 </p>
 <p>
-Enabling Internet Information Services in the windows WM
+Enable Internet Information Services with CGI in Windows VM to set up a web server required for osTicket to function.
 </p>
 <br />
 

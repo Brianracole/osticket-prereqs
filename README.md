@@ -17,11 +17,11 @@
 
 <h2>List of Prerequisites</h2>
 
-- Install / Enable IIS in Windows with CGI enabled and required modules
-- Install web platform installer
-- Install MySQL and create the osticket database
-- install c++ redistributable 
-- Configure pemissions and Install osTicket
+- Install or enable IIS in Windows, ensuring CGI and required modules are enabled.
+- Install the Web Platform Installer.
+- Install MySQL and create the osTicket database.
+- Install the C++ Redistributable.
+- Configure permissions and install osTicket.
 
 <h2>Installation Steps</h2>
 
@@ -29,7 +29,7 @@
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6ec44ce4-de80-44a7-be77-47103e0618f0" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Enabling Internet Information Services in the windows WM
 </p>
 <br />
 

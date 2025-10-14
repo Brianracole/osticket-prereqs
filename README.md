@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Installed mySQL to store the databases data, user accounts, and ticketing information
+Installed MySQL to store database data, user accounts, and ticketing information.
 </p>
 <br />
 
@@ -48,6 +48,6 @@ Installed mySQL to store the databases data, user accounts, and ticketing inform
 
 </p>
 <p>
-Created a new database using HeidiSQL to create a connection, configured permissions using Windows Features, and installed osTicket.
+Created a new database in HeidiSQL, established a connection, configured permissions through Windows Features, and installed osTicket.
 </p>
 <br />

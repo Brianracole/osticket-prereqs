@@ -59,6 +59,19 @@ Next, enable Internet Information Services (IIS) and CGI by opening the Control 
 
 </p>
 <p>
-Next, open the osTicket installation folder you unzip on your desktop and double click PHP manager for iis
+Next, open the osTicket installation folder you unzipped on your desktop and double-click PHP Manager for IIS. Follow the setup wizard by clicking Yes or Next as prompted, and allow the installation to complete.
+
+
+</p>
+<br />
+
+<p>
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/24c4e927-b9c0-4111-a4c1-9b83069abe5c" />
+
+</p>
+<p>
+Next, open the folder and install the Rewrite Module by double-clicking the installer file. Follow the prompts by clicking Next until the installation completes and the Finish message appears.
+
+
 </p>
 <br />

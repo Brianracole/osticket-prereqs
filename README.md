@@ -26,10 +26,11 @@
 <h2>Installation Steps</h2>
 
 <p>
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6ec44ce4-de80-44a7-be77-47103e0618f0" />
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/98d28253-c676-48e5-8026-b5361d84a689" />
+
 </p>
 <p>
-Enable Internet Information Services with CGI in Windows VM to set up a web server required for osTicket to function.
+Set up an Azure VM with Windows 10 and at least 8 GB of memory to ensure smooth performance. Be sure to create an administrator username and password.
 </p>
 <br />
 
@@ -44,7 +45,7 @@ Installed MySQL to store database data, user accounts, and ticketing information
 <br />
 
 <p>
-<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/b2a11539-f693-4e96-8506-0bec6bd73772" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/24c4e927-b9c0-4111-a4c1-9b83069abe5c" />
 
 </p>
 <p>

@@ -40,7 +40,8 @@ Set up an Azure VM with Windows 10 and at least 8 GB of memory to ensure smooth 
 
 </p>
 <p>
-Installed MySQL to store database data, user accounts, and ticketing information.
+Within the windows vm open the osticket link and download the osTicket-Installation-Files to your desktop and unzip it onto your desktop.
+
 </p>
 <br />
 

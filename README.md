@@ -30,7 +30,7 @@
 
 </p>
 <p>
-Set up an Azure VM with Windows 10 and at least 8 GB of memory to ensure smooth performance. Be sure to create an administrator username and password.
+Set up an Azure VM with Windows 10 and at least 8 GB of memory to ensure smooth performance. Be sure to create an admin username and password.
 </p>
 <br />
 
@@ -40,7 +40,7 @@ Set up an Azure VM with Windows 10 and at least 8 GB of memory to ensure smooth 
 
 </p>
 <p>
-Within the windows vm open the osticket link and download the osTicket-Installation-Files to your desktop and unzip it onto your desktop.
+Next, Within the windows vm open the osticket link and download the osTicket-Installation-Files to your desktop and unzip it onto your desktop.
 
 </p>
 <br />
@@ -50,6 +50,15 @@ Within the windows vm open the osticket link and download the osTicket-Installat
 
 </p>
 <p>
-Created a new database in HeidiSQL, established a connection, configured permissions through Windows Features, and installed osTicket.
+Next, enable Internet Information Services (IIS) and CGI by opening the Control Panel, going to Programs, and selecting 'Turn Windows features on or off.' Enable Internet Information Services to install IIS, expand World Wide Web Services, then Application Development Features, and check CGI. Click OK to install the required features
+</p>
+<br />
+
+<p>
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/24c4e927-b9c0-4111-a4c1-9b83069abe5c" />
+
+</p>
+<p>
+Next, open the osTicket installation folder you unzip on your desktop and double click PHP manager for iis
 </p>
 <br />

@@ -92,7 +92,7 @@ Next, Create a folder in the C drive called "PHP" then from the osTicket install
 
 </p>
 <p>
-Next, from the osTicket-Installation-Files folder, install VC_redist.x86.exe.
+Next, from the osTicket Installation Files folder, install VC_redist.x86.exe.
 
 </p>
 <br />
@@ -106,4 +106,33 @@ Then, from the same osTicket installation folder, install MySQL 5.5.62 by clicki
 
 
 </p>
+<br />
+
+<p>
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/98d28253-c676-48e5-8026-b5361d84a689" />
+
+</p>
+<p>
+Next, open IIS as an administrator. In IIS, go to PHP Manager, select 'Register new PHP version,' navigate to the C drive and open the PHP folder. Select 'php-cgi,' click Open, and then refresh IIS.
+
+<br />
+
+<p>
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/98d28253-c676-48e5-8026-b5361d84a689" />
+
+</p>
+<p>
+In IIS, navigate to Sites > Default > osTicket. Double-click PHP Manager, then select 'Enable or disable an extension.' Enable the extensions for osTicket: php_imap.dll, php_intl.dll, and php_opcache.dll. Finally, refresh the osTicket site in your browser.
+
+
+</p>
+<br />
+
+<p>
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/98d28253-c676-48e5-8026-b5361d84a689" />
+
+</p>
+<p>
+Next, install osTicket by unzipping the osTicket v1.15.8 folder from the Installation Files. Copy the 'upload' folder to C:\inetpub\wwwroot, then rename the 'upload' folder to 'osTicket' within the wwwroot directory.
+
 <br />

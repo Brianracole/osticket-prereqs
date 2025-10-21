@@ -122,8 +122,7 @@ Next, open IIS as an administrator. In IIS, go to PHP Manager, select 'Register 
 
 </p>
 <p>
-In IIS, navigate to Sites > Default > osTicket. Double-click PHP Manager, then select 'Enable or disable an extension.' Enable the extensions for osTicket: php_imap.dll, php_intl.dll, and php_opcache.dll. Finally, refresh the osTicket site in your browser.
-
+Next, install osTicket by unzipping the osTicket v1.15.8 folder from the Installation Files. Copy the 'upload' folder to C:\inetpub\wwwroot, then rename the 'upload' folder to 'osTicket' within the wwwroot directory.
 
 </p>
 <br />
@@ -133,6 +132,6 @@ In IIS, navigate to Sites > Default > osTicket. Double-click PHP Manager, then s
 
 </p>
 <p>
-Next, install osTicket by unzipping the osTicket v1.15.8 folder from the Installation Files. Copy the 'upload' folder to C:\inetpub\wwwroot, then rename the 'upload' folder to 'osTicket' within the wwwroot directory.
+In IIS, navigate to Sites > Default > osTicket. Double-click PHP Manager, then select 'Enable or disable an extension.' Enable the extensions for osTicket: php_imap.dll, php_intl.dll, and php_opcache.dll. Finally, refresh the osTicket site in your browser.
 
 <br />

@@ -142,7 +142,7 @@ Next, navigate to C:\inetpub\wwwroot\osTicket\include and rename 'ost-sampleconf
 
 </p>
 <p>
-From the browser with osTicket open enter your basic installtion information until database settings
+With the osTicket site open in your browser, enter the basic installation information until you reach the database settings section.
 </p>
 <br />
 
@@ -151,7 +151,7 @@ From the browser with osTicket open enter your basic installtion information unt
 
 </p>
 <p>
-From the osTicket Installation Files folder, install HeidiSQL, create a new session in HeidiSQL user: root password: root after pressing open right-click the unamed and create new > database name it osTicket
+From the osTicket Installation Files folder, install HeidiSQL. Create a new session in HeidiSQL using 'root' as both the username and password. After opening the session, right-click the unnamed server, select 'Create New' > 'Database,' and name it 'osTicket.'
 </p>
 <br />
 

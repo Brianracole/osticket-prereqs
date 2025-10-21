@@ -75,3 +75,35 @@ Next, open the folder and install the Rewrite Module by double-clicking the inst
 
 </p>
 <br />
+
+<p>
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/24c4e927-b9c0-4111-a4c1-9b83069abe5c" />
+
+</p>
+<p>
+Next, Create a folder in the C drive called "PHP" then from the osTicket installation folder extract the folder PHP 7.3.8 into the C:\PHP folder in the c drive
+
+
+</p>
+<br />
+
+<p>
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/98d28253-c676-48e5-8026-b5361d84a689" />
+
+</p>
+<p>
+Next, from the osTicket-Installation-Files folder, install VC_redist.x86.exe.
+
+</p>
+<br />
+
+<p>
+<img width="2560" height="1392" alt="image" src="https://github.com/user-attachments/assets/98d28253-c676-48e5-8026-b5361d84a689" />
+
+</p>
+<p>
+Then, from the same osTicket installation folder, install MySQL 5.5.62 by clicking Yes as prompted until you reach the setup type. Choose "Typical," then proceed to install the MySQL server. After installation, be sure to launch the Configuration Wizard, select Standard Configuration, and set both the username and password to "root."
+
+
+</p>
+<br />

@@ -17,11 +17,16 @@
 
 <h2>List of Prerequisites</h2>
 
-- Install or enable IIS in Windows, ensuring CGI and required modules are enabled.
-- Install the Web Platform Installer.
-- Install MySQL and create the osTicket database.
-- Install the C++ Redistributable.
-- Configure permissions and install osTicket.
+- Create the Azure Virtual Machine
+- Prepare Installation Files
+- Install and Enable IIS with CGI
+- Install Required Components such as PHP Manager for IIS, IIS Rewrite Module, PHP, C++ Redistributable, and MySQL
+- Configure IIS and PHP
+- Enable PHP Extensions
+- Rename folder
+- Configure osTicket Files
+- Install and Configure Database
+- Install osTicket
 
 <h2>Installation Steps</h2>
 

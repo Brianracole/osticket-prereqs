@@ -102,7 +102,7 @@ Next, from the osTicket-Installation-Files folder, install VC_redist.x86.exe.
 
 </p>
 <p>
-Then, from the same osTicket installation folder, install MySQL 5.5.62 by clicking Yes as prompted until you reach the setup type. Choose "Typical," then proceed to install the MySQL server. After installation, be sure to launch the Configuration Wizard, select Standard Configuration, and set both the username and password to "root."
+Then, from the same osTicket installation folder, install MySQL 5.5.62 by clicking Yes as prompted until you reach the setup type. Choose "Typical," then proceed to install the MySQL server. After installation, be sure to launch the Configuration Wizard, select Standard Configuration, and set both the username and password to "root.". Click next then execute.
 
 
 </p>

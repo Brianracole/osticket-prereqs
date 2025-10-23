@@ -13,8 +13,8 @@
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 / Windows 11</b> (21H2)
-
+- Windows 10</b> (21H2)
+- Windows 11</b> (21H2)
 <h2>List of Prerequisites</h2>
 
 1. Create the Azure Virtual Machine

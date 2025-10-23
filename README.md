@@ -17,16 +17,16 @@
 
 <h2>List of Prerequisites</h2>
 
-- Create the Azure Virtual Machine
-- Prepare Installation Files
-- Install and Enable IIS with CGI
-- Install Required Components such as PHP Manager for IIS, IIS Rewrite Module, PHP, C++ Redistributable, and MySQL
-- Configure IIS and PHP
-- Enable PHP Extensions
-- Rename folder
-- Configure osTicket Files
-- Install and Configure Database
-- Install osTicket
+1. Create the Azure Virtual Machine
+2. Prepare Installation Files
+3. Install and Enable IIS with CGI
+4. Install Required Components such as PHP Manager for IIS, IIS Rewrite Module, PHP, C++ Redistributable, and MySQL
+5. Configure IIS and PHP
+6. Enable PHP Extensions
+7. Rename folder
+8. Configure osTicket Files
+9. Install and Configure Database
+10. Install osTicket
 
 <h2>Installation Steps</h2>
 
@@ -35,7 +35,7 @@
 
 </p>
 <p>
-Set up an Azure VM with Windows 10 and at least 8 GB of memory to ensure smooth performance. Be sure to create an admin username and password.
+1. Set up an Azure VM with Windows 10 and at least 8 GB of memory to ensure smooth performance. Be sure to create an admin username and password.
 </p>
 <br />
 
@@ -45,7 +45,7 @@ Set up an Azure VM with Windows 10 and at least 8 GB of memory to ensure smooth 
 
 </p>
 <p>
-Next, Within the windows vm open the osticket link and download the osTicket-Installation-Files to your desktop and unzip it onto your desktop.
+2. Next, Within the windows vm open the osticket link and download the osTicket-Installation-Files to your desktop and unzip it onto your desktop.
 
 </p>
 <br />
@@ -55,7 +55,7 @@ Next, Within the windows vm open the osticket link and download the osTicket-Ins
 
 </p>
 <p>
-Next, enable Internet Information Services (IIS) and CGI by opening the Control Panel, going to Programs, and selecting 'Turn Windows features on or off.' Enable Internet Information Services to install IIS, expand World Wide Web Services, then Application Development Features, and check CGI. Click OK to install the required features
+3. Next, enable Internet Information Services (IIS) and CGI by opening the Control Panel, going to Programs, and selecting 'Turn Windows features on or off.' Enable Internet Information Services to install IIS, expand World Wide Web Services, then Application Development Features, and check CGI. Click OK to install the required features
 </p>
 <br />
 
@@ -64,18 +64,7 @@ Next, enable Internet Information Services (IIS) and CGI by opening the Control 
 
 </p>
 <p>
-Next, open the osTicket installation folder you unzipped on your desktop and double-click PHP Manager for IIS. Follow the setup wizard by clicking Yes or Next as prompted, and allow the installation to complete.
-
-
-</p>
-<br />
-
-<p>
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/24c4e927-b9c0-4111-a4c1-9b83069abe5c" />
-
-</p>
-<p>
-Next, open the folder and install the Rewrite Module by double-clicking the installer file. Follow the prompts by clicking Next until the installation completes and the Finish message appears.
+4. Next, open the osTicket installation folder you unzipped on your desktop and double-click PHP Manager for IIS. Follow the setup wizard by clicking Yes or Next as prompted, and allow the installation to complete.
 
 
 </p>
@@ -86,7 +75,18 @@ Next, open the folder and install the Rewrite Module by double-clicking the inst
 
 </p>
 <p>
-Next, Create a folder in the C drive called "PHP" then from the osTicket installation folder extract the folder PHP 7.3.8 into the C:\PHP folder in the c drive
+5. Next, open the folder and install the Rewrite Module by double-clicking the installer file. Follow the prompts by clicking Next until the installation completes and the Finish message appears.
+
+
+</p>
+<br />
+
+<p>
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/24c4e927-b9c0-4111-a4c1-9b83069abe5c" />
+
+</p>
+<p>
+6. Next, Create a folder in the C drive called "PHP" then from the osTicket installation folder extract the folder PHP 7.3.8 into the C:\PHP folder in the c drive
 
 
 </p>
@@ -97,7 +97,7 @@ Next, Create a folder in the C drive called "PHP" then from the osTicket install
 
 </p>
 <p>
-Next, from the osTicket Installation Files folder, install VC_redist.x86.exe.
+7. Next, from the osTicket Installation Files folder, install VC_redist.x86.exe.
 
 </p>
 <br />
@@ -107,7 +107,7 @@ Next, from the osTicket Installation Files folder, install VC_redist.x86.exe.
 
 </p>
 <p>
-Then, from the same osTicket installation folder, install MySQL 5.5.62 by clicking Yes as prompted until you reach the setup type. Choose "Typical," then proceed to install the MySQL server. After installation, be sure to launch the Configuration Wizard, select Standard Configuration, and set both the username and password to "root.". Click next then execute.
+8. Then, from the same osTicket installation folder, install MySQL 5.5.62 by clicking Yes as prompted until you reach the setup type. Choose "Typical," then proceed to install the MySQL server. After installation, be sure to launch the Configuration Wizard, select Standard Configuration, and set both the username and password to "root.". Click next then execute.
 
 
 </p>
@@ -118,7 +118,7 @@ Then, from the same osTicket installation folder, install MySQL 5.5.62 by clicki
 
 </p>
 <p>
-Next, open IIS as an administrator. In IIS, go to PHP Manager, select 'Register new PHP version,' navigate to the C drive and open the PHP folder. Select 'php-cgi,' click Open, and then refresh IIS.
+9. Next, open IIS as an administrator. In IIS, go to PHP Manager, select 'Register new PHP version,' navigate to the C drive and open the PHP folder. Select 'php-cgi,' click Open, and then refresh IIS.
 
 <br />
 
@@ -127,7 +127,7 @@ Next, open IIS as an administrator. In IIS, go to PHP Manager, select 'Register 
 
 </p>
 <p>
-Next, install osTicket by unzipping the osTicket v1.15.8 folder from the Installation Files. Copy the 'upload' folder to C:\inetpub\wwwroot, then rename the 'upload' folder to 'osTicket' within the wwwroot directory.
+10. Next, install osTicket by unzipping the osTicket v1.15.8 folder from the Installation Files. Copy the 'upload' folder to C:\inetpub\wwwroot, then rename the 'upload' folder to 'osTicket' within the wwwroot directory.
 
 </p>
 <br />
@@ -137,7 +137,7 @@ Next, install osTicket by unzipping the osTicket v1.15.8 folder from the Install
 
 </p>
 <p>
-Next, navigate to C:\inetpub\wwwroot\osTicket\include and rename 'ost-sampleconfig.php' to 'ost-config.php.' Right-click the file, select Properties > Security > Advanced, disable inheritance, and grant new permissions to everyone.
+11 Next, navigate to C:\inetpub\wwwroot\osTicket\include and rename 'ost-sampleconfig.php' to 'ost-config.php.' Right-click the file, select Properties > Security > Advanced, disable inheritance, and grant new permissions to everyone.
 
 
 <br />
@@ -147,7 +147,7 @@ Next, navigate to C:\inetpub\wwwroot\osTicket\include and rename 'ost-sampleconf
 
 </p>
 <p>
-With the osTicket site open in your browser, enter the basic installation information until you reach the database settings section.
+12. With the osTicket site open in your browser, enter the basic installation information until you reach the database settings section.
 </p>
 <br />
 
@@ -156,7 +156,7 @@ With the osTicket site open in your browser, enter the basic installation inform
 
 </p>
 <p>
-From the osTicket Installation Files folder, install HeidiSQL. Create a new session in HeidiSQL using 'root' as both the username and password. After opening the session, right-click the unnamed server, select 'Create New' > 'Database,' and name it 'osTicket.'
+13. From the osTicket Installation Files folder, install HeidiSQL. Create a new session in HeidiSQL using 'root' as both the username and password. After opening the session, right-click the unnamed server, select 'Create New' > 'Database,' and name it 'osTicket.'
 </p>
 <br />
 
@@ -165,6 +165,6 @@ From the osTicket Installation Files folder, install HeidiSQL. Create a new sess
 
 </p>
 <p>
-Return to the browser with the osTicket site open. Complete the database details, using 'osTicket' as the database name and 'root' for both the username and password. Then, click 'Install Now' to proceed.
+14. Return to the browser with the osTicket site open. Complete the database details, using 'osTicket' as the database name and 'root' for both the username and password. Then, click 'Install Now' to proceed.
 </p>
 <br />
